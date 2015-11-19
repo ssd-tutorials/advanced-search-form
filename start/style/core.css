@@ -1,0 +1,164 @@
+@charset "UTF-8";
+* {
+	margin:0px;
+	padding:0px;
+	list-style:none;
+	color:#333;
+	font-size:12px;
+	line-height:20px;
+	outline:none;
+}
+body {
+	font-family:Tahoma, Geneva, sans-serif;	
+	text-align:center;
+	background:#000;
+}
+a {
+	text-decoration:none;
+	color:#e44e01;
+}
+a:hover {
+	color:#999;
+}
+h1,h2,h3,p {
+	font-weight:normal;
+	padding-bottom:14px;
+}
+h1,h2,h3 {
+	font-style:italic;
+}
+h1 {
+	font-size:22px;
+	color:#fff;
+	position:absolute;
+	top:30px;
+	left:0px;
+}
+h2 {
+	font-size:18px;
+	color:#e44e01;
+}
+h3 {	
+	color:#efefef;
+	position:absolute;
+	top:53px;
+	left:0px;
+}
+#out {
+	width:100%;
+	background:#fff;
+	border-bottom:solid 7px #222;
+}
+#ph {
+	background:#000;
+	width:100%;
+	height:100px;
+	border-bottom:solid 7px #222;	
+}
+#phin,#wr,#ftin {
+	margin:0px auto;
+	width:900px;
+	text-align:left;
+	position:relative;
+}
+#cnt {
+	padding:20px 0px;
+}
+#ft {
+	width:100%;
+	text-align:center;
+	padding-top:14px;
+}
+#ft p,#ft a {
+	color:#666;
+}
+table {
+	margin-bottom:14px;
+	width:100%;
+	border-top:solid 4px #ccc;	
+}
+th,td {
+	text-align:left;
+	vertical-align:top;
+	padding:3px 10px;	
+}
+th {
+	background:#dadada;
+	font-weight:normal;
+}
+.tbl_search {
+	border-left:solid 1px #ccc;
+}
+.tbl_search th {
+	width:20%;
+}
+.tbl_search th,.tbl_search td {
+	border-right:solid 1px #ccc;
+	border-bottom:solid 1px #ccc;
+	border-right:solid 1px #ccc;
+}
+.tbl_repeat {
+	margin-bottom:14px;
+}
+.tbl_repeat th,.tbl_repeat td {
+	padding:3px 10px;
+	border-bottom:dashed 1px #dadada;
+}
+.tbl_repeat tr:hover {
+	background:#f9f9f9;
+}
+.f_fld {
+	border:solid 1px #dadada;
+	width:250px;
+	padding:1px;
+}
+.sbm,.btn {
+	width:118px;
+	height:23px;
+	cursor:pointer;
+	text-indent:-999999em;
+	overflow:hidden;	
+}
+.sbm {
+	background:url(../images/sbm.png) no-repeat 0px 0px;
+	z-index:1;
+}
+.btn {
+	border:none;
+	background:transparent;
+	text-decoration:none;
+	text-align:center;
+	z-index:0;
+}
+.chkbx {
+	list-style:none;
+}
+.chkbx li {
+	display:block;
+	position:relative;
+	height:20px;
+	width:33%;
+	float:left;
+}
+.chkbx li input {
+	position:absolute;
+	left:0px;
+	top:4px;
+}
+.chkbx li label {
+	position:absolute;
+	top:0px;
+	left:20px;
+}
+.col_10 {
+	width:10%;
+}
+.col_15 {
+	width:15%;
+}
+.al_r {
+	text-align:right;
+}
+.fl_r {
+	float:right;
+}
