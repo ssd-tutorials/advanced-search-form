@@ -1,0 +1,28 @@
+#wrapper {
+
+    width: 58rem;
+    margin: 0 auto;
+
+}
+
+.divider {
+
+    width: 100%;
+    height: 2rem;
+    clear: both;
+    padding: 0;
+    margin: 0;
+
+}
+
+.brtd {
+
+    border-top: dashed 1px #aaa;
+
+}
+
+.tableList {
+
+    width: 100%;
+
+}
