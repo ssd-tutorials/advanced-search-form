@@ -352,7 +352,7 @@ function getRecords($search = null) {
                     $items[] = "`books`.`id` IN (
                                     SELECT `book_id`
                                     FROM `books_languages`
-                                    WHERE `language_id` = ?
+                                    WHERE `lang_id` = ?
                                 )";
                     $params[] = $value;
                     break;
